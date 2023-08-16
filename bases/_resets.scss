@@ -1,0 +1,23 @@
+// reset for all element
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// disable a underline
+a {
+	text-decoration: none;
+}
+
+// reset style of input button and textarea
+input, button, textarea {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+// reset italic
+i, em {
+	font-style: normal;
+}

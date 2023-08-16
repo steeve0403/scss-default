@@ -1,0 +1,8 @@
+body {
+	width: 100vw;
+	// if your site must be more long then the screen
+	min-height: 100vh;
+	// if your site must be the height of the screen
+	height: 100vh;
+	overflow-x: hidden;
+}

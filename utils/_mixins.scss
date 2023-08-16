@@ -1,0 +1,48 @@
+/** 
+ * Mixin for flex row
+ */
+@mixin flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+
+/**
+ * Mixin for flex column
+ */
+@mixin flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+/**
+ * Mixin for flex flex-start flex-start
+ */
+@mixin flexStart {
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+/**
+ * Mixin for flex flex-start center
+ */
+@mixin flexStartCenter {
+	align-items: flex-start;
+	justify-content: center;
+}
+
+/**
+ * Mixin for flex center center
+ */
+@mixin center {
+	align-items: center;
+	justify-content: center;
+}
+
+/**
+ * Mixin for flex center flex-start
+ */
+@mixin centerFlexStart {
+	align-items: center;
+	justify-content: flex-start;
+}
